@@ -1,0 +1,14 @@
+@import "~bulma";
+
+.button {
+  &.one { background-color: $primary;
+    &:hover {
+      background-color: lighten($primary, 35%);
+    }
+    &:active {
+      background-color: darken($primary, 20%);
+    }
+  }
+  &.two{background-color: orangered;}
+  &.three{background-color: $primary ;}
+}
